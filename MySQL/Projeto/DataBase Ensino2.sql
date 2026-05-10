@@ -1,0 +1,64 @@
+DROP DATABASE IF EXISTS ENSINO;
+CREATE DATABASE ENSINO;
+
+USE ENSINO;
+
+DROP TABLE IF EXISTS Estudante;
+CREATE TABLE Estudante (
+ID						INTEGER PRIMARY KEY AUTO_INCREMENT,
+Nome					VARCHAR(150) NOT NULL COMMENT 'Nomes pessoais',
+Apelido					VARCHAR(250) NOT NULL COMMENT 'Nome de familia',
+Endereco				VARCHAR(200) NOT NULL COMMENT 'Endereco excepto cidade e codigo postal',
+Cidade					VARCHAR(50) NOT NULL DEFAULT 'Lisboa',
+CodigoPostal			INTEGER NOT NULL,
+DataNascimento			DATE NOT NULL,
+NISS					INTEGER UNIQUE NOT NULL CHECK (NISS > 0),
+
+CONSTRAINT CodigoPostalCHK CHECK (CodigoPostal BETWEEN 3000 AND 4999)
+);
+
+DROP TABLE IF EXISTS Curso;
+CREATE TABLE Curso (
+ID						INTEGER PRIMARY KEY AUTO_INCREMENT,
+Nome					VARCHAR(100) NOT NULL COMMENT 'Designacao oficial do curso',
+Duracao					SMALLINT NOT NULL CHECK (Duracao > 0) COMMENT 'Duracao em horas',
+Tipo					VARCHAR(50) NOT NULL COMMENT 'Tipo de curso'
+);
+
+DROP TABLE IF EXISTS Accao;
+CREATE TABLE Accao (
+ID						INTEGER PRIMARY KEY AUTO_INCREMENT,
+IDCurso					INTEGER NOT NULL,
+Numero					INTEGER NOT NULL,
+DataInicial				DATE NOT NULL,
+DataFinal				DATE,
+Coordenador				VARCHAR(250),
+
+FOREIGN KEY (IDCurso) REFERENCES Curso (ID) ON UPDATE CASCADE
+);
+
+DROP TABLE IF EXISTS Inscricao;
+CREATE TABLE Inscricao (
+ID						INTEGER PRIMARY KEY AUTO_INCREMENT,
+DataInscricao			DATE DEFAULT (CURDATE()),
+Estado					ENUM ('Activa', 'Suspensa', 'Concluida') DEFAULT 'Activa' NOT NULL,
+ClassificacaoFinal		DECIMAL (4, 2),
+IDEstudante				INTEGER NOT NULL,
+IDAccao					INTEGER NOT NULL,
+
+CONSTRAINT ClassificacaoFinalCHK CHECK (ClassificacaoFinal BETWEEN 0 AND 20),
+CONSTRAINT IDEstudanteFK FOREIGN KEY (IDEstudante) REFERENCES Estudante (ID) ON UPDATE CASCADE,
+CONSTRAINT IDAccaoFK FOREIGN KEY (IDAccao) REFERENCES Accao (ID) ON UPDATE CASCADE,
+CONSTRAINT EstudanteAccaoUK UNIQUE KEY (IDEstudante, IDAccao)
+);
+
+DROP TABLE IF EXISTS EstudanteTrabalhador;
+CREATE TABLE EstudanteTrabalhador (
+IDEstudante				INTEGER PRIMARY KEY,
+NIF						INTEGER UNIQUE NOT NULL CHECK (LENGTH(NIF) = 6) COMMENT 'Numero de Identificacao Fiscal',
+DataEstatuto			DATE NOT NULL COMMENT 'Data de inicio do estatuto de etudante trabalhador',
+NumExames				SMALLINT NOT NULL DEFAULT '1',
+Profissao				VARCHAR(20) DEFAULT 'N/D',
+
+CONSTRAINT IDEstudanteTrabalhadorFK FOREIGN KEY (IDEstudante) REFERENCES Estudante (ID) ON UPDATE CASCADE ON DELETE CASCADE
+);

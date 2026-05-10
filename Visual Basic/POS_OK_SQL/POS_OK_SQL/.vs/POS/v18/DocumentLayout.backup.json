@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bruna\\Documents\\Forma\u00E7\u00E3o IEFP\\Programador em Inform\u00E1tica\\Programa\u00E7\u00E3o em Visual Basic NET\\POS_OK_SQL\\POS_OK_SQL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D57CF26D-CCEB-4698-A30E-90A6A6A04120}|POS\\POS.vbproj|c:\\users\\bruna\\documents\\forma\u00E7\u00E3o iefp\\programador em inform\u00E1tica\\programa\u00E7\u00E3o em visual basic net\\pos_ok_sql\\pos_ok_sql\\pos\\frmposprincipal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D57CF26D-CCEB-4698-A30E-90A6A6A04120}|POS\\POS.vbproj|solutionrelative:pos\\frmposprincipal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57CF26D-CCEB-4698-A30E-90A6A6A04120}|POS\\POS.vbproj|C:\\Users\\Bruna\\Documents\\Forma\u00E7\u00E3o IEFP\\Programador em Inform\u00E1tica\\Programa\u00E7\u00E3o em Visual Basic NET\\POS_OK_SQL\\POS_OK_SQL\\pos\\frmposprincipal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{D57CF26D-CCEB-4698-A30E-90A6A6A04120}|POS\\POS.vbproj|solutionrelative:pos\\frmposprincipal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57CF26D-CCEB-4698-A30E-90A6A6A04120}|POS\\POS.vbproj|C:\\Users\\Bruna\\Documents\\Forma\u00E7\u00E3o IEFP\\Programador em Inform\u00E1tica\\Programa\u00E7\u00E3o em Visual Basic NET\\POS_OK_SQL\\POS_OK_SQL\\pos\\frmpagamento.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{D57CF26D-CCEB-4698-A30E-90A6A6A04120}|POS\\POS.vbproj|solutionrelative:pos\\frmpagamento.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57CF26D-CCEB-4698-A30E-90A6A6A04120}|POS\\POS.vbproj|C:\\Users\\Bruna\\Documents\\Forma\u00E7\u00E3o IEFP\\Programador em Inform\u00E1tica\\Programa\u00E7\u00E3o em Visual Basic NET\\POS_OK_SQL\\POS_OK_SQL\\pos\\frmartigoespecifico.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{D57CF26D-CCEB-4698-A30E-90A6A6A04120}|POS\\POS.vbproj|solutionrelative:pos\\frmartigoespecifico.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57CF26D-CCEB-4698-A30E-90A6A6A04120}|POS\\POS.vbproj|C:\\Users\\Bruna\\Documents\\Forma\u00E7\u00E3o IEFP\\Programador em Inform\u00E1tica\\Programa\u00E7\u00E3o em Visual Basic NET\\POS_OK_SQL\\POS_OK_SQL\\pos\\frmartigoespecifico.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D57CF26D-CCEB-4698-A30E-90A6A6A04120}|POS\\POS.vbproj|solutionrelative:pos\\frmartigoespecifico.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmArtigoEspecifico.vb",
+              "DocumentMoniker": "C:\\Users\\Bruna\\Documents\\Forma\u00E7\u00E3o IEFP\\Programador em Inform\u00E1tica\\Programa\u00E7\u00E3o em Visual Basic NET\\POS_OK_SQL\\POS_OK_SQL\\POS\\frmArtigoEspecifico.vb",
+              "RelativeDocumentMoniker": "POS\\frmArtigoEspecifico.vb",
+              "ToolTip": "C:\\Users\\Bruna\\Documents\\Forma\u00E7\u00E3o IEFP\\Programador em Inform\u00E1tica\\Programa\u00E7\u00E3o em Visual Basic NET\\POS_OK_SQL\\POS_OK_SQL\\POS\\frmArtigoEspecifico.vb",
+              "RelativeToolTip": "POS\\frmArtigoEspecifico.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-20T15:40:24.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmPOSPrincipal.vb",
+              "DocumentMoniker": "C:\\Users\\Bruna\\Documents\\Forma\u00E7\u00E3o IEFP\\Programador em Inform\u00E1tica\\Programa\u00E7\u00E3o em Visual Basic NET\\POS_OK_SQL\\POS_OK_SQL\\POS\\frmPOSPrincipal.vb",
+              "RelativeDocumentMoniker": "POS\\frmPOSPrincipal.vb",
+              "ToolTip": "C:\\Users\\Bruna\\Documents\\Forma\u00E7\u00E3o IEFP\\Programador em Inform\u00E1tica\\Programa\u00E7\u00E3o em Visual Basic NET\\POS_OK_SQL\\POS_OK_SQL\\POS\\frmPOSPrincipal.vb*",
+              "RelativeToolTip": "POS\\frmPOSPrincipal.vb*",
+              "ViewState": "AgIAAEkBAAAAAAAAAAAwwFMBAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-17T14:25:07.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmPagamento.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Bruna\\Documents\\Forma\u00E7\u00E3o IEFP\\Programador em Inform\u00E1tica\\Programa\u00E7\u00E3o em Visual Basic NET\\POS_OK_SQL\\POS_OK_SQL\\POS\\frmPagamento.vb",
+              "RelativeDocumentMoniker": "POS\\frmPagamento.vb",
+              "ToolTip": "C:\\Users\\Bruna\\Desktop\\POS_OK_SQL\\POS_OK_SQL\\POS\\frmPagamento.vb [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Desktop\\POS_OK_SQL\\POS_OK_SQL\\POS\\frmPagamento.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-17T14:09:13.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmArtigoEspecifico.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Bruna\\Documents\\Forma\u00E7\u00E3o IEFP\\Programador em Inform\u00E1tica\\Programa\u00E7\u00E3o em Visual Basic NET\\POS_OK_SQL\\POS_OK_SQL\\POS\\frmArtigoEspecifico.vb",
+              "RelativeDocumentMoniker": "POS\\frmArtigoEspecifico.vb",
+              "ToolTip": "C:\\Users\\Bruna\\Desktop\\POS_OK_SQL\\POS_OK_SQL\\POS\\frmArtigoEspecifico.vb [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Desktop\\POS_OK_SQL\\POS_OK_SQL\\POS\\frmArtigoEspecifico.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-17T14:07:48.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmPOSPrincipal.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Bruna\\Documents\\Forma\u00E7\u00E3o IEFP\\Programador em Inform\u00E1tica\\Programa\u00E7\u00E3o em Visual Basic NET\\POS_OK_SQL\\POS_OK_SQL\\POS\\frmPOSPrincipal.vb",
+              "RelativeDocumentMoniker": "POS\\frmPOSPrincipal.vb",
+              "ToolTip": "C:\\Users\\Bruna\\Documents\\Forma\u00E7\u00E3o IEFP\\Programador em Inform\u00E1tica\\Programa\u00E7\u00E3o em Visual Basic NET\\POS_OK_SQL\\POS_OK_SQL\\POS\\frmPOSPrincipal.vb [Design]*",
+              "RelativeToolTip": "POS\\frmPOSPrincipal.vb [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-17T09:53:56.189Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

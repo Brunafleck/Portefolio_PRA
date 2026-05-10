@@ -1,0 +1,16 @@
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\projeto_carros\bin\Debug\net10.0-windows\projeto_carros.exe
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\projeto_carros\bin\Debug\net10.0-windows\projeto_carros.deps.json
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\projeto_carros\bin\Debug\net10.0-windows\projeto_carros.runtimeconfig.json
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\projeto_carros\bin\Debug\net10.0-windows\projeto_carros.dll
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\projeto_carros\bin\Debug\net10.0-windows\projeto_carros.pdb
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\projeto_carros\obj\Debug\net10.0-windows\projeto_carros.Form1.resources
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\projeto_carros\obj\Debug\net10.0-windows\projeto_carros.vbproj.GenerateResource.cache
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\projeto_carros\obj\Debug\net10.0-windows\projeto_carros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\projeto_carros\obj\Debug\net10.0-windows\projeto_carros.AssemblyInfoInputs.cache
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\projeto_carros\obj\Debug\net10.0-windows\projeto_carros.AssemblyInfo.vb
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\projeto_carros\obj\Debug\net10.0-windows\projeto_carros.vbproj.CoreCompileInputs.cache
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\projeto_carros\obj\Debug\net10.0-windows\projeto_carros.dll
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\projeto_carros\obj\Debug\net10.0-windows\refint\projeto_carros.dll
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\projeto_carros\obj\Debug\net10.0-windows\projeto_carros.pdb
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\projeto_carros\obj\Debug\net10.0-windows\projeto_carros.genruntimeconfig.cache
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\projeto_carros\obj\Debug\net10.0-windows\ref\projeto_carros.dll

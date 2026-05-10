@@ -1,0 +1,51 @@
+DROP DATABASE IF EXISTS ENSINO;
+CREATE DATABASE ENSINO;
+
+USE ENSINO;
+
+DROP TABLE IF EXISTS Estudante;
+CREATE TABLE Estudante (
+ID						INTEGER PRIMARY KEY AUTO_INCREMENT,
+NomeEstudante			VARCHAR(20),
+Endereco				VARCHAR(50),
+Cidade					VARCHAR(50),
+CodigoPostal			INTEGER,
+DataNascimento			DATE
+);
+
+DROP TABLE IF EXISTS Curso;
+CREATE TABLE Curso (
+ID						INTEGER PRIMARY KEY AUTO_INCREMENT,
+Nome					VARCHAR(20),
+Duracao					INTEGER,
+Tipo					VARCHAR(40)
+);
+
+DESCRIBE Estudante;
+DESCRIBE Curso;
+
+/*
+OU
+
+SELECT COLUMN_NAME, COLUMN_TYPE, IS_NULLABLE, COLUMN_KEY, COLUMN_DEFAULT, EXTRA
+FROM information_schema.columns
+WHERE table_name = 'Estudante';
+*/
+
+DROP TABLE IF EXISTS Accao;
+CREATE TABLE Accao (
+ID						INTEGER PRIMARY KEY AUTO_INCREMENT,
+Numero					INTEGER,
+DataInicial				DATE,
+DataFinal				DATE,
+Coordenador				VARCHAR(20),
+IDCurso					INTEGER NOT NULL,
+
+FOREIGN KEY (IDCurso) REFERENCES Curso (ID)
+);
+
+DROP TABLE IF EXISTS Inscricao;
+CREATE TABLE Inscricao (
+DataInscricao			DATE,
+ClassificacaoFinal		DECIMAL
+);

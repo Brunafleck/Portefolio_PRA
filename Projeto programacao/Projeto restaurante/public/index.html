@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reserva restaurante</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Menu principal -->
+    <nav id="menu-principal">
+      <div style="color: white">LOGO</div>
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#reserva">Reservar Mesa</a></li>
+        <li><a href="#alterar">Gerir Reserva</a></li>
+        </ul>
+    </nav>
+
+    <!-- Foto -->
+    <section class="foto">
+      <div class="inicio">
+        <h1>Gastronomia<br />típica<br />portuguesa</h1>
+        <p>Do campo para a sua mesa, com amor e tradição.</p>
+        <p style="font-size: 12px;">Lisboa, desde 2008</p>
+      </div>
+      <h3><a href="#reserva" class="botao-reserva-inicio">Reservar Mesa</a></h3>
+    </section>
+
+    <section id="menu" class="conteudo">
+      <div class="titulo">
+        <p>Os nossos pratos</p>
+        <h1>Destaques do Menu</h1>
+      </div>
+      <div class="pratos">
+        <div style="justify-content: center;">
+          <div class="fotos-menu">
+            <img src="./imagens/bacalhau.jpg" alt="Bacalhau" width="200">
+          </div>
+          <h3>Bacalhau à Chefe</h3>
+          <p>
+            Bacalhau desfiado com arroz, batata, cebola e ovo
+          </p>
+          <p>18 euros</p>
+        </div>
+        <div>
+          <div class="fotos-menu">
+            <img src="./imagens/bacalhau 2.jpg" alt="Bacalhau" width="200">
+          </div>
+            <h3>À minhota</h3>
+            <p>Bacalhau frito em azeite com batata frita</p>
+            <p>20 euros</p>
+        </div>
+        <div>
+          <div class="fotos-menu">
+            <img src="./imagens/bacalhau 3.png" alt="Bacalhau" width="200">
+          </div>
+            <h3>Bacalhau assado</h3>
+            <p>
+              Bacalhau assado com cebola, pimentão e batata.
+            </p>
+            <p>15 euros</p>
+        </div>
+    </section>
+
+    <section id="reserva" class="conteudo">
+      <div class="titulo">
+        <p>Reserve uma mesa</p>
+        <h1>Efetuar uma reserva</h1>
+      </div>
+      <div>
+        <p>Reservas disponíveis para almoço e jantar.<br>Para grupos acima de 10 pessoas, contacte-nos diretamente.</p>
+      </div>
+      <div class="titulo" style="display: grid; place-items: center;">
+        <h3>Horários</h3>
+        <div style="display: flex; justify-content: space-between; width: 30%">
+          <p>Almoço<br>12:00 – 14:30</p>
+          <p>Janta<br>19:00 – 22:30</p>
+        </div>
+      </div>
+      <div>
+        <form id="formulario-reserva">
+          <div style="width: 40%; padding: 20px;">
+            <div class="formulario">
+              <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" placeholder="O seu nome" required />
+            </div>
+            <div class="formulario">
+              <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="email@exemplo.com"
+                  required
+                />
+            </div>
+            <div class="formulario">
+              <label for="data">Data</label>
+                <input type="date" id="data" required />
+            </div>
+            <div class="formulario">
+              <label for="hora">Hora</label>
+                <input type="time" id="hora" required min="12:00" max="22:30" />
+            </div>
+            <div class="formulario">
+              <label for="pessoas">Número de Pessoas</label>
+                <input
+                  type="number"
+                  id="pessoas"
+                  placeholder="2"
+                  min="1"
+                  max="10"
+                  required
+                />
+            </div>
+          </div>
+            <button type="submit" id="botao-reservar">
+              <span class="botao-criar-reserva">Confirmar Reserva</span>
+              <span class="botao-loader" style="display: none"
+              >Processando</span
+              >
+            </button>
+        </form>
+      </div>
+        <div id="mensagem-reserva-efetuada" style="display: none">
+            Reserva efetuada! Verifique o seu e-mail para confirmação.
+        </div>
+        <div id="mensagem-erro" style="display: none">
+            Erro ao efetuar a reserva. Tente novamente.
+      </div>
+    </section>
+
+
+    <section id="alterar" class="conteudo">
+  <div class="titulo">
+    <p>Alteração</p>
+    <h1>Alterar reserva</h1>
+  </div>
+
+  <p>
+    Introduza o número de reserva e o e-mail utilizado.
+  </p>
+
+  <div id="pesquisar-formulario">
+    <div style="padding: 20px 0">
+      <div class="formulario">
+        <label for="busca-id">Número de Reserva</label>
+        <input type="number" id="busca-id" placeholder="42" min="1" />
+      </div>
+
+      <div class="formulario">
+        <label for="busca-email">E-mail</label>
+        <input type="email" id="busca-email" />
+      </div>
+    </div>
+
+    <button id="botao-buscar" onclick="buscarReserva()">
+      Procurar Reserva
+    </button>
+
+    <div id="mensagem-procurar-erro" style="display: none"></div>
+  </div>
+
+  <!-- Formulário de alteração -->
+  <div id="alterar-formulario" style="display: none;">
+    <div>
+      <p>Reserva encontrada</p>
+      <h3 id="alterar-nome"></h3>
+    </div>
+
+    <form id="alteracao-formulario">
+      <input type="hidden" id="novo-id" />
+      <input type="hidden" id="novo-email" />
+
+      <div>
+        <label for="nova-data">Nova Data</label>
+        <input type="date" id="nova-data" required />
+      </div>
+
+      <div>
+        <label for="novo-horario">Nova Hora</label>
+        <input type="time" id="novo-horario" required min="12:00" max="22:30" />
+      </div>
+
+      <div>
+        <label for="novo-numero-pessoas">Número de Pessoas</label>
+        <input type="number" id="novo-numero-pessoas" min="1" max="10" required />
+      </div>
+
+      <div class="botao-alterar">
+        <button type="button" onclick="cancelarEdicao()">
+          Voltar
+        </button>
+
+        <button
+          type="button"
+          onclick="cancelarReserva()"
+          style="background-color: #555;"
+        >
+          Cancelar Reserva
+        </button>
+
+        <button type="submit" id="botao-alteracao">
+          <span class="botao-criar-reserva">Guardar Alterações</span>
+        </button>
+      </div>
+    </form>
+
+    <div id="mensagem-reserva-alterada" style="display: none">
+      Reserva atualizada!
+    </div>
+
+    <div id="mensagem-reserva-alterada-erro" style="display: none"></div>
+  </div>
+</section>
+
+    <footer>
+      <div>
+        <div>LOGO</div>
+        <div>
+          <p>Rua da Gastronomia 45, Lisboa</p>
+          <p>+351 213 456 789 · reservas35@hotmail.com</p>
+        </div>
+        <p>
+          © 2026 NOME DO RESTAURANTE. Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+    <script src="restaurante.js"></script>
+  </body>
+</html>

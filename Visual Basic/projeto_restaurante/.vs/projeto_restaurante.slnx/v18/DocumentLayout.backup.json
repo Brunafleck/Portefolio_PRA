@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bruna\\Documents\\Forma\u00E7\u00E3o IEFP\\Programador em Inform\u00E1tica\\Programa\u00E7\u00E3o em Visual Basic NET\\projeto_restaurante\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98BB7DB3-E14C-4C2E-BBA2-469DE7CB8543}|projeto_restaurante.vbproj|c:\\users\\bruna\\documents\\forma\u00E7\u00E3o iefp\\programador em inform\u00E1tica\\programa\u00E7\u00E3o em visual basic net\\projeto_restaurante\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{98BB7DB3-E14C-4C2E-BBA2-469DE7CB8543}|projeto_restaurante.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Bruna\\Documents\\Forma\u00E7\u00E3o IEFP\\Programador em Inform\u00E1tica\\Programa\u00E7\u00E3o em Visual Basic NET\\projeto_restaurante\\Form1.vb",
+              "RelativeDocumentMoniker": "Form1.vb",
+              "ToolTip": "C:\\Users\\Bruna\\Documents\\Forma\u00E7\u00E3o IEFP\\Programador em Inform\u00E1tica\\Programa\u00E7\u00E3o em Visual Basic NET\\projeto_restaurante\\Form1.vb [Design]",
+              "RelativeToolTip": "Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-17T13:20:17.986Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

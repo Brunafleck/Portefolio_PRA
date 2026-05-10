@@ -1,0 +1,178 @@
+C:\Users\Aerlis\Desktop\MyWork CursoProgramação\VB\POS\POS\bin\Debug\POS.exe.config
+C:\Users\Aerlis\Desktop\MyWork CursoProgramação\VB\POS\POS\bin\Debug\POS.exe
+C:\Users\Aerlis\Desktop\MyWork CursoProgramação\VB\POS\POS\bin\Debug\POS.pdb
+C:\Users\Aerlis\Desktop\MyWork CursoProgramação\VB\POS\POS\bin\Debug\POS.xml
+C:\Users\Aerlis\Desktop\MyWork CursoProgramação\VB\POS\POS\obj\Debug\POS.Form1.resources
+C:\Users\Aerlis\Desktop\MyWork CursoProgramação\VB\POS\POS\obj\Debug\POS.Resources.resources
+C:\Users\Aerlis\Desktop\MyWork CursoProgramação\VB\POS\POS\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Users\Aerlis\Desktop\MyWork CursoProgramação\VB\POS\POS\obj\Debug\POS.exe
+C:\Users\Aerlis\Desktop\MyWork CursoProgramação\VB\POS\POS\obj\Debug\POS.xml
+C:\Users\Aerlis\Desktop\MyWork CursoProgramação\VB\POS\POS\obj\Debug\POS.pdb
+F:\CursoProgramacao\VB\POS\POS\bin\Debug\POS.exe.config
+F:\CursoProgramacao\VB\POS\POS\obj\Debug\POS.xml
+F:\CursoProgramacao\VB\POS\POS\obj\Debug\POS.pdb
+F:\CursoProgramacao\VB\POS\POS\obj\Debug\POS.Form1.resources
+F:\CursoProgramacao\VB\POS\POS\obj\Debug\POS.Resources.resources
+F:\CursoProgramacao\VB\POS\POS\obj\Debug\POS.vbproj.GenerateResource.Cache
+F:\CursoProgramacao\VB\POS\POS\bin\Debug\POS.exe
+F:\CursoProgramacao\VB\POS\POS\bin\Debug\POS.pdb
+F:\CursoProgramacao\VB\POS\POS\bin\Debug\POS.xml
+F:\CursoProgramacao\VB\POS\POS\obj\Debug\POS.exe
+G:\CursoProgramacao\VB\POS\POS\bin\Debug\POS.exe.config
+G:\CursoProgramacao\VB\POS\POS\obj\Debug\POS.exe
+G:\CursoProgramacao\VB\POS\POS\obj\Debug\POS.xml
+G:\CursoProgramacao\VB\POS\POS\obj\Debug\POS.pdb
+G:\CursoProgramacao\VB\POS\POS\bin\Debug\POS.exe
+G:\CursoProgramacao\VB\POS\POS\bin\Debug\POS.pdb
+G:\CursoProgramacao\VB\POS\POS\bin\Debug\POS.xml
+G:\CursoProgramacao\VB\POS\POS\obj\Debug\POS.Form1.resources
+G:\CursoProgramacao\VB\POS\POS\obj\Debug\POS.Resources.resources
+G:\CursoProgramacao\VB\POS\POS\obj\Debug\POS.vbproj.GenerateResource.Cache
+G:\CursoProgramacao\VB\POS\POS\obj\Debug\POS.vbprojResolveAssemblyReference.cache
+C:\Users\Aerlis\Desktop\CursoProgramacao\VB\POS\POS\bin\Debug\POS.exe.config
+C:\Users\Aerlis\Desktop\CursoProgramacao\VB\POS\POS\obj\Debug\POS.exe
+C:\Users\Aerlis\Desktop\CursoProgramacao\VB\POS\POS\obj\Debug\POS.xml
+C:\Users\Aerlis\Desktop\CursoProgramacao\VB\POS\POS\obj\Debug\POS.pdb
+C:\Users\Aerlis\Desktop\CursoProgramacao\VB\POS\POS\bin\Debug\POS.exe
+C:\Users\Aerlis\Desktop\CursoProgramacao\VB\POS\POS\bin\Debug\POS.pdb
+C:\Users\Aerlis\Desktop\CursoProgramacao\VB\POS\POS\bin\Debug\POS.xml
+C:\Users\Aerlis\Desktop\CursoProgramacao\VB\POS\POS\obj\Debug\POS.vbprojResolveAssemblyReference.cache
+C:\Users\Aerlis\Desktop\CursoProgramacao\VB\POS\POS\obj\Debug\POS.Resources.resources
+C:\Users\Aerlis\Desktop\CursoProgramacao\VB\POS\POS\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Users\Aerlis\Desktop\CursoProgramacao\VB\POS\POS\obj\Debug\POS.frmArtigoEspecifico.resources
+C:\Users\Aerlis\Desktop\CursoProgramacao\VB\POS\POS\obj\Debug\POS.frmPrincipal.resources
+C:\Users\Aerlis\Desktop\POS_OK\POS\bin\Debug\POS.exe.config
+C:\Users\Aerlis\Desktop\POS_OK\POS\obj\Debug\POS.exe
+C:\Users\Aerlis\Desktop\POS_OK\POS\obj\Debug\POS.xml
+C:\Users\Aerlis\Desktop\POS_OK\POS\obj\Debug\POS.pdb
+C:\Users\Aerlis\Desktop\POS_OK\POS\bin\Debug\POS.exe
+C:\Users\Aerlis\Desktop\POS_OK\POS\bin\Debug\POS.pdb
+C:\Users\Aerlis\Desktop\POS_OK\POS\bin\Debug\POS.xml
+C:\Users\Aerlis\Desktop\POS_OK\POS\obj\Debug\POS.vbprojResolveAssemblyReference.cache
+C:\Users\Aerlis\Desktop\POS_OK\POS\obj\Debug\POS.frmPrincipal.resources
+C:\Users\Aerlis\Desktop\POS_OK\POS\obj\Debug\POS.frmArtigoEspecifico.resources
+C:\Users\Aerlis\Desktop\POS_OK\POS\obj\Debug\POS.Resources.resources
+C:\Users\Aerlis\Desktop\POS_OK\POS\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Users\Aerlis\Desktop\POS_OK\POS\obj\Debug\POS.frmPagamento.resources
+C:\Users\Pedro\Desktop\VB\POS_OK\POS\bin\Debug\POS.exe.config
+C:\Users\Pedro\Desktop\VB\POS_OK\POS\obj\Debug\POS.exe
+C:\Users\Pedro\Desktop\VB\POS_OK\POS\obj\Debug\POS.xml
+C:\Users\Pedro\Desktop\VB\POS_OK\POS\obj\Debug\POS.pdb
+C:\Users\Pedro\Desktop\VB\POS_OK\POS\bin\Debug\POS.exe
+C:\Users\Pedro\Desktop\VB\POS_OK\POS\bin\Debug\POS.pdb
+C:\Users\Pedro\Desktop\VB\POS_OK\POS\bin\Debug\POS.xml
+C:\Users\Pedro\Desktop\VB\POS_OK\POS\obj\Debug\POS.vbprojResolveAssemblyReference.cache
+C:\Users\Pedro\Desktop\VB\POS_OK\POS\obj\Debug\POS.frmPrincipal.resources
+C:\Users\Pedro\Desktop\VB\POS_OK\POS\obj\Debug\POS.frmArtigoEspecifico.resources
+C:\Users\Pedro\Desktop\VB\POS_OK\POS\obj\Debug\POS.frmPagamento.resources
+C:\Users\Pedro\Desktop\VB\POS_OK\POS\obj\Debug\POS.Resources.resources
+C:\Users\Pedro\Desktop\VB\POS_OK\POS\obj\Debug\POS.vbproj.GenerateResource.Cache
+D:\Aerlis\Vida_Ativa_23_02_2015\3934\Pedro\POS_OK\POS\bin\Debug\POS.exe.config
+D:\Aerlis\Vida_Ativa_23_02_2015\3934\Pedro\POS_OK\POS\obj\Debug\POS.exe
+D:\Aerlis\Vida_Ativa_23_02_2015\3934\Pedro\POS_OK\POS\obj\Debug\POS.xml
+D:\Aerlis\Vida_Ativa_23_02_2015\3934\Pedro\POS_OK\POS\obj\Debug\POS.pdb
+D:\Aerlis\Vida_Ativa_23_02_2015\3934\Pedro\POS_OK\POS\bin\Debug\POS.exe
+D:\Aerlis\Vida_Ativa_23_02_2015\3934\Pedro\POS_OK\POS\bin\Debug\POS.pdb
+D:\Aerlis\Vida_Ativa_23_02_2015\3934\Pedro\POS_OK\POS\bin\Debug\POS.xml
+D:\Aerlis\Vida_Ativa_23_02_2015\3934\Pedro\POS_OK\POS\obj\Debug\POS.vbprojResolveAssemblyReference.cache
+D:\Aerlis\Vida_Ativa_23_02_2015\3934\Pedro\POS_OK\POS\obj\Debug\POS.frmPrincipal.resources
+D:\Aerlis\Vida_Ativa_23_02_2015\3934\Pedro\POS_OK\POS\obj\Debug\POS.frmArtigoEspecifico.resources
+D:\Aerlis\Vida_Ativa_23_02_2015\3934\Pedro\POS_OK\POS\obj\Debug\POS.frmPagamento.resources
+D:\Aerlis\Vida_Ativa_23_02_2015\3934\Pedro\POS_OK\POS\obj\Debug\POS.Resources.resources
+D:\Aerlis\Vida_Ativa_23_02_2015\3934\Pedro\POS_OK\POS\obj\Debug\POS.vbproj.GenerateResource.Cache
+D:\3934\POS_OK\POS\bin\Debug\POS.exe.config
+D:\3934\POS_OK\POS\obj\Debug\POS.exe
+D:\3934\POS_OK\POS\obj\Debug\POS.xml
+D:\3934\POS_OK\POS\obj\Debug\POS.pdb
+D:\3934\POS_OK\POS\bin\Debug\POS.exe
+D:\3934\POS_OK\POS\bin\Debug\POS.pdb
+D:\3934\POS_OK\POS\bin\Debug\POS.xml
+D:\3934\POS_OK\POS\obj\Debug\POS.vbprojResolveAssemblyReference.cache
+D:\3934\POS_OK\POS\obj\Debug\POS.frmPrincipal.resources
+D:\3934\POS_OK\POS\obj\Debug\POS.frmArtigoEspecifico.resources
+D:\3934\POS_OK\POS\obj\Debug\POS.frmPagamento.resources
+D:\3934\POS_OK\POS\obj\Debug\POS.Resources.resources
+D:\3934\POS_OK\POS\obj\Debug\POS.vbproj.GenerateResource.Cache
+E:\IEFP\EFAPRO_PROG05\3934\POS_OK_SQL\POS\bin\Debug\POS.exe.config
+E:\IEFP\EFAPRO_PROG05\3934\POS_OK_SQL\POS\obj\Debug\POS.exe
+E:\IEFP\EFAPRO_PROG05\3934\POS_OK_SQL\POS\obj\Debug\POS.xml
+E:\IEFP\EFAPRO_PROG05\3934\POS_OK_SQL\POS\obj\Debug\POS.pdb
+E:\IEFP\EFAPRO_PROG05\3934\POS_OK_SQL\POS\bin\Debug\POS.exe
+E:\IEFP\EFAPRO_PROG05\3934\POS_OK_SQL\POS\bin\Debug\POS.pdb
+E:\IEFP\EFAPRO_PROG05\3934\POS_OK_SQL\POS\bin\Debug\POS.xml
+E:\IEFP\EFAPRO_PROG05\3934\POS_OK_SQL\POS\obj\Debug\POS.vbprojResolveAssemblyReference.cache
+E:\IEFP\EFAPRO_PROG05\3934\POS_OK_SQL\POS\obj\Debug\POS.frmPrincipal.resources
+E:\IEFP\EFAPRO_PROG05\3934\POS_OK_SQL\POS\obj\Debug\POS.frmArtigoEspecifico.resources
+E:\IEFP\EFAPRO_PROG05\3934\POS_OK_SQL\POS\obj\Debug\POS.frmPagamento.resources
+E:\IEFP\EFAPRO_PROG05\3934\POS_OK_SQL\POS\obj\Debug\POS.Resources.resources
+E:\IEFP\EFAPRO_PROG05\3934\POS_OK_SQL\POS\obj\Debug\POS.vbproj.GenerateResource.Cache
+E:\Formacao\IEFP\NST-PROG12\3934\POS_OK_SQL\POS\bin\Debug\POS.exe.config
+E:\Formacao\IEFP\NST-PROG12\3934\POS_OK_SQL\POS\bin\Debug\POS.exe
+E:\Formacao\IEFP\NST-PROG12\3934\POS_OK_SQL\POS\bin\Debug\POS.pdb
+E:\Formacao\IEFP\NST-PROG12\3934\POS_OK_SQL\POS\bin\Debug\POS.xml
+E:\Formacao\IEFP\NST-PROG12\3934\POS_OK_SQL\POS\obj\Debug\POS.vbproj.AssemblyReference.cache
+E:\Formacao\IEFP\NST-PROG12\3934\POS_OK_SQL\POS\obj\Debug\POS.frmPrincipal.resources
+E:\Formacao\IEFP\NST-PROG12\3934\POS_OK_SQL\POS\obj\Debug\POS.frmArtigoEspecifico.resources
+E:\Formacao\IEFP\NST-PROG12\3934\POS_OK_SQL\POS\obj\Debug\POS.frmPagamento.resources
+E:\Formacao\IEFP\NST-PROG12\3934\POS_OK_SQL\POS\obj\Debug\POS.Resources.resources
+E:\Formacao\IEFP\NST-PROG12\3934\POS_OK_SQL\POS\obj\Debug\POS.vbproj.GenerateResource.cache
+E:\Formacao\IEFP\NST-PROG12\3934\POS_OK_SQL\POS\obj\Debug\POS.vbproj.CoreCompileInputs.cache
+E:\Formacao\IEFP\NST-PROG12\3934\POS_OK_SQL\POS\obj\Debug\POS.exe
+E:\Formacao\IEFP\NST-PROG12\3934\POS_OK_SQL\POS\obj\Debug\POS.xml
+E:\Formacao\IEFP\NST-PROG12\3934\POS_OK_SQL\POS\obj\Debug\POS.pdb
+C:\Users\crmv\source\repos\POS_OK_SQL\POS\bin\Debug\POS.exe.config
+C:\Users\crmv\source\repos\POS_OK_SQL\POS\bin\Debug\POS.exe
+C:\Users\crmv\source\repos\POS_OK_SQL\POS\bin\Debug\POS.pdb
+C:\Users\crmv\source\repos\POS_OK_SQL\POS\bin\Debug\POS.xml
+C:\Users\crmv\source\repos\POS_OK_SQL\POS\obj\Debug\POS.vbproj.AssemblyReference.cache
+C:\Users\crmv\source\repos\POS_OK_SQL\POS\obj\Debug\POS.frmPrincipal.resources
+C:\Users\crmv\source\repos\POS_OK_SQL\POS\obj\Debug\POS.frmArtigoEspecifico.resources
+C:\Users\crmv\source\repos\POS_OK_SQL\POS\obj\Debug\POS.frmPagamento.resources
+C:\Users\crmv\source\repos\POS_OK_SQL\POS\obj\Debug\POS.Resources.resources
+C:\Users\crmv\source\repos\POS_OK_SQL\POS\obj\Debug\POS.vbproj.GenerateResource.cache
+C:\Users\crmv\source\repos\POS_OK_SQL\POS\obj\Debug\POS.vbproj.CoreCompileInputs.cache
+C:\Users\crmv\source\repos\POS_OK_SQL\POS\obj\Debug\POS.exe
+C:\Users\crmv\source\repos\POS_OK_SQL\POS\obj\Debug\POS.xml
+C:\Users\crmv\source\repos\POS_OK_SQL\POS\obj\Debug\POS.pdb
+D:\Monique\Downloads\POS_OK_SQL\POS_OK_SQL\POS\bin\Debug\POS.exe.config
+D:\Monique\Downloads\POS_OK_SQL\POS_OK_SQL\POS\bin\Debug\POS.exe
+D:\Monique\Downloads\POS_OK_SQL\POS_OK_SQL\POS\bin\Debug\POS.pdb
+D:\Monique\Downloads\POS_OK_SQL\POS_OK_SQL\POS\bin\Debug\POS.xml
+D:\Monique\Downloads\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.vbproj.AssemblyReference.cache
+D:\Monique\Downloads\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.frmPrincipal.resources
+D:\Monique\Downloads\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.frmArtigoEspecifico.resources
+D:\Monique\Downloads\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.frmPagamento.resources
+D:\Monique\Downloads\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.Resources.resources
+D:\Monique\Downloads\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.vbproj.GenerateResource.cache
+D:\Monique\Downloads\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.vbproj.CoreCompileInputs.cache
+D:\Monique\Downloads\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.exe
+D:\Monique\Downloads\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.xml
+D:\Monique\Downloads\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.pdb
+C:\Users\Bruna\Desktop\POS_OK_SQL\POS_OK_SQL\POS\bin\Debug\POS.exe.config
+C:\Users\Bruna\Desktop\POS_OK_SQL\POS_OK_SQL\POS\bin\Debug\POS.exe
+C:\Users\Bruna\Desktop\POS_OK_SQL\POS_OK_SQL\POS\bin\Debug\POS.pdb
+C:\Users\Bruna\Desktop\POS_OK_SQL\POS_OK_SQL\POS\bin\Debug\POS.xml
+C:\Users\Bruna\Desktop\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.vbproj.AssemblyReference.cache
+C:\Users\Bruna\Desktop\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.frmPrincipal.resources
+C:\Users\Bruna\Desktop\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.frmArtigoEspecifico.resources
+C:\Users\Bruna\Desktop\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.frmPagamento.resources
+C:\Users\Bruna\Desktop\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.Resources.resources
+C:\Users\Bruna\Desktop\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.vbproj.GenerateResource.cache
+C:\Users\Bruna\Desktop\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.vbproj.CoreCompileInputs.cache
+C:\Users\Bruna\Desktop\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.exe
+C:\Users\Bruna\Desktop\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.xml
+C:\Users\Bruna\Desktop\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.pdb
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\POS_OK_SQL\POS_OK_SQL\POS\bin\Debug\POS.exe.config
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\POS_OK_SQL\POS_OK_SQL\POS\bin\Debug\POS.exe
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\POS_OK_SQL\POS_OK_SQL\POS\bin\Debug\POS.pdb
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\POS_OK_SQL\POS_OK_SQL\POS\bin\Debug\POS.xml
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.vbproj.AssemblyReference.cache
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.frmPrincipal.resources
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.frmArtigoEspecifico.resources
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.frmPagamento.resources
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.Resources.resources
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.vbproj.GenerateResource.cache
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.vbproj.CoreCompileInputs.cache
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.exe
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.xml
+C:\Users\Bruna\Documents\Formação IEFP\Programador em Informática\Programação em Visual Basic NET\POS_OK_SQL\POS_OK_SQL\POS\obj\Debug\POS.pdb
