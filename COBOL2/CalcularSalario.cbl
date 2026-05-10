@@ -1,0 +1,147 @@
+      ******************************************************************
+      * Author:
+      * Date:
+      * Purpose:
+      * Tectonics: cobc
+      ******************************************************************
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. CALCULARSALARIO.
+       DATA DIVISION.
+       FILE SECTION.
+       WORKING-STORAGE SECTION.
+       77 ANOS-DE-CASA             PIC 9(2).
+           88 VALIDAR-ANOS-DE-CASA VALUES 0 THRU 50.
+       77 MES                      PIC 9(2).
+           88 VALIDAR-MES VALUES 1 THRU 12.
+       77 VOLUME-DE-VENDAS         PIC 9(5)V99.
+       77 VENCIMENTO-BASE          PIC 9(4)V99.
+       77 VALOR-COMISSAO           PIC 9(3)V99.
+       77 TOTAL-BASE-COMISSAO      PIC 9(4)V99.
+       77 SEGURANCA-SOCIAL         PIC 9(3)V99.
+       77 IRS                      PIC 9(3)V99.
+       77 TOTAL-DESCONTO           PIC 9(4)V99.
+       77 SALARIO-LIQUIDO          PIC 9(4)V99.
+       77 TEMP-ANOS-DE-CASA        PIC X(2).
+       77 TEMP-MES                 PIC X(2).
+       77 TEMP-VOLUME-DE-VENDAS    PIC X(5).
+       77 SAIDA                    PIC Z,ZZZ,ZZ9.99.
+       77 REPETIR                  PIC A.
+
+       SCREEN SECTION.
+       01 CLS BLANK SCREEN.
+
+       PROCEDURE DIVISION.
+       INICIO.
+           DISPLAY CLS.
+       MAIN-PROCEDURE.
+
+       LER-ANOS-DE-CASA.
+           DISPLAY "TEMPO DE TRABALHO:" AT 0101.
+           ACCEPT TEMP-ANOS-DE-CASA AT 0119.
+           MOVE FUNCTION NUMVAL(TEMP-ANOS-DE-CASA) TO ANOS-DE-CASA.
+       VALIDACAO-ANOS-DE-CASA.
+           IF(NOT VALIDAR-ANOS-DE-CASA) THEN
+               DISPLAY "VALOR INVALIDO" AT 0125
+               GO LER-ANOS-DE-CASA
+           ELSE
+               DISPLAY " " ERASE EOL AT 0125
+           END-IF.
+
+       LER-MES.
+           DISPLAY "DIGITE O MES:" AT 0301.
+           ACCEPT TEMP-MES AT 0314.
+           MOVE FUNCTION NUMVAL(TEMP-MES) TO MES.
+       VALIDACAO-MES.
+           IF(NOT VALIDAR-MES) THEN
+               DISPLAY "VALOR INVALIDO" AT 0316
+               GO LER-MES
+           ELSE
+               DISPLAY " " ERASE EOL AT 0316
+           END-IF.
+
+       LER-VOLUME-DE-VENDAS.
+           DISPLAY "DIGITE O VOLUME DE VENDAS:" AT 0501.
+           ACCEPT TEMP-VOLUME-DE-VENDAS AT 0527.
+           MOVE FUNCTION NUMVAL(TEMP-VOLUME-DE-VENDAS) TO
+           VOLUME-DE-VENDAS.
+
+       CALCULOS.
+       CALCULO-ANOS-DE-CASA.
+           EVALUATE ANOS-DE-CASA
+               WHEN < 5
+                   COMPUTE VENCIMENTO-BASE = 800
+               WHEN <= 10
+                   COMPUTE VENCIMENTO-BASE = 1000
+               WHEN > 10
+                   COMPUTE VENCIMENTO-BASE = 1200
+           END-EVALUATE.
+
+       CALCULO-MES.
+           IF(MES = 6 OR MES = 12) THEN
+               COMPUTE VENCIMENTO-BASE = (VENCIMENTO-BASE * 2)
+           ELSE
+               COMPUTE VENCIMENTO-BASE = VENCIMENTO-BASE
+           END-IF.
+
+       CALCULO-COMISSAO.
+           EVALUATE VOLUME-DE-VENDAS
+               WHEN <= 10000
+                   COMPUTE VALOR-COMISSAO = (VOLUME-DE-VENDAS * 0.05)
+               WHEN <= 20000
+                   COMPUTE VALOR-COMISSAO = (VOLUME-DE-VENDAS * 0.10)
+               WHEN > 20000
+                   COMPUTE VALOR-COMISSAO = (VOLUME-DE-VENDAS * 0.15)
+           END-EVALUATE.
+
+       CALCULOS-TOTAL.
+           COMPUTE TOTAL-BASE-COMISSAO = VENCIMENTO-BASE +
+           VALOR-COMISSAO.
+
+       CALCULO-SEGURANCA-SOCIAL.
+           COMPUTE SEGURANCA-SOCIAL = (TOTAL-BASE-COMISSAO * 0.115).
+
+       CALCULO-IRS.
+           COMPUTE IRS = (TOTAL-BASE-COMISSAO * 0.25).
+
+       CALCULO-TOTAL-DESCONTOS.
+           COMPUTE TOTAL-DESCONTO = (SEGURANCA-SOCIAL + IRS).
+
+       CALCULO-SALARIO-LIQUIDO.
+           COMPUTE SALARIO-LIQUIDO = (TOTAL-BASE-COMISSAO -
+           TOTAL-DESCONTO).
+
+       INFORMACOES.
+           MOVE VOLUME-DE-VENDAS TO SAIDA.
+           DISPLAY FUNCTION CONCATENATE("VOLUME DE VENDAS:",
+           SAIDA) AT 0701.
+           MOVE VENCIMENTO-BASE TO SAIDA.
+           DISPLAY FUNCTION CONCATENATE("VENCIMENTO BASE:",
+           SAIDA) AT 0901.
+           MOVE VALOR-COMISSAO TO SAIDA.
+           DISPLAY FUNCTION CONCATENATE("VALOR COMISSAO:",
+           SAIDA) AT 1101.
+           MOVE TOTAL-BASE-COMISSAO TO SAIDA.
+           DISPLAY FUNCTION CONCATENATE("VALOR TOTAL:",
+           SAIDA) AT 1301.
+           MOVE SEGURANCA-SOCIAL TO SAIDA.
+           DISPLAY FUNCTION CONCATENATE("SEGURANCA SOCIAL:",
+           SAIDA) AT 1501.
+           MOVE IRS TO SAIDA.
+           DISPLAY FUNCTION CONCATENATE("IRS", SAIDA) AT 1701.
+           MOVE TOTAL-DESCONTO TO SAIDA.
+           DISPLAY FUNCTION CONCATENATE("TOTAL DESCONTO:",
+           SAIDA) AT 1901.
+           MOVE SALARIO-LIQUIDO TO SAIDA.
+           DISPLAY FUNCTION CONCATENATE("SALARIO LIQUIDO:",
+           SAIDA) AT 2101.
+
+           DISPLAY "PRETENDE CONTINUAR (S OU N):" AT 2101.
+           ACCEPT REPETIR AT 2129.
+           IF(REPETIR = "S" OR REPETIR = 's') THEN
+               GO INICIO
+           ELSE
+               DISPLAY "OBRIGADO!" AT 2501
+           END-IF.
+           ACCEPT OMITTED AT 2701.
+            STOP RUN.
+       END PROGRAM CALCULARSALARIO.
